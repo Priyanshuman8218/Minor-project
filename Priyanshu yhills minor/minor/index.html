@@ -100,8 +100,37 @@
                     <input type="number" class="form-control" id="zip" name="zip" required>
                 </div>
             </div>
+                <!-- Additional Information Section -->
+            <h3>Additional Information</h3>
+            <div class="form-group">
+                <label for="eventPreferences">Event Preferences</label>
+                <select id="eventPreferences" class="form-control" name="eventPreferences" required>
+                    <option value="1">choose</option>
+                    <option value="2">sdf</option>
+                    <option value="4">xyz</option>
+                    <option value="3">ngr</option>
+                    <!-- option me kya dale smjh nhi aarha tha -->
+ 
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dietaryRestrictions">Dietary Restrictions</label>
+                <textarea class="form-control" id="dietaryRestrictions" name="dietaryRestrictions" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="tshirtSize">T-shirt Size</label>
+                <select id="tshirtSize" class="form-control" name="tshirtSize" required>
+                    <option value="">Choose...</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XXXL">XXXL</option>
 
-           
+                </select>
+            </div>
+
             <button type="submit" class="btn btn-primary btn-block" style="background-color: black;">Register</button>
         </form>
     </div>
